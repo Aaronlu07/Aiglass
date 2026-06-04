@@ -26,7 +26,7 @@ from dashscope.audio.asr import Recognition
 
 # 这里需要填入你的阿里云 DashScope API Key
 # 注意：这只是个测试 Key，请务必替换成你自己的！
-dashscope.api_key = "sk-0498a58a74134ecbbd964f433cd6cf92" 
+dashscope.api_key = " " 
 
 def recognize_audio_dashscope(audio_file_path):
     """使用阿里云通义实验室的 Paraformer 语音识别 (国内直连，速度极快)"""
